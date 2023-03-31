@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-
 import Container from 'react-bootstrap/Container';
 import './Slider.css';
 import './All_Category.css';

@@ -1,33 +1,11 @@
 import React from 'react';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {FreeMode} from "swiper"
 import 'swiper/css';
 import "swiper/css/free-mode"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {useState} from "react";
-import {useEffect} from "react";
-
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-import Button from 'react-bootstrap/Button';
-
-import Carousel from 'react-bootstrap/Carousel';
-
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Container from 'react-bootstrap/Container';
-
 import './Products.css';
-
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { faClock } from '@fortawesome/free-solid-svg-icons';
-
-
 import im1 from '../img/cat3.png'
 import im2 from '../img/cat7.png'
 import im3 from '../img/cat5.png'

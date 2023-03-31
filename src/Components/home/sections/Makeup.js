@@ -1,56 +1,23 @@
- 
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import './Slider.css';
 import './All_Category.css';
-import {useEffect} from "react";
-import {Link} from "react-router-dom"
-import rate from '../img/rate.svg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import car_img from '../img/slide_img1.png'
 import car_img2 from '../img/slide_img2.png'
 import car_img3 from '../img/slide_img3.png'
 import car_img4 from '../img/slide_img4.png'
-import glass from '../img/glass.svg'
-  
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-icons';
+
 
 
 
 
 function Makeup() {
   
-
-
-  const [error, setError] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [items, setItems] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:3031/flowers')
-        .then(res => res.json())
-        .then(
-          (result) => {
-            setIsLoaded(true);
-            setItems(result);
-          },
-          // Note: it's important to handle errors here
-          // instead of a catch() block so that we don't swallow
-          // exceptions from actual bugs in components.
-          (error) => {
-            setIsLoaded(true);
-            setError(error);
-          }
-        )
-    }, [])
-
 
 
 
