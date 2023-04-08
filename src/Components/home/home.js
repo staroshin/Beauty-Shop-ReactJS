@@ -35,9 +35,7 @@ import part11_4 from './img/part11_images/part11_4.png'
 import part11_5 from './img/part11_images/part11_5.png'
 import part11_6 from './img/part11_images/part11_6.png'
 
-import home_img2 from './img/caro_img2.jpeg'
-import home_img3 from './img/caro_img3.jpeg'
-import people from './img/people.png'
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
